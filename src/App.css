@@ -1,0 +1,78 @@
+
+.bodyCotainer {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+ 
+
+}
+
+.main_container {
+  background-image: url('./Image/bodyWallimg.webp');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+
+}
+
+.slidermaindiv {
+  visibility: hidden;
+}
+
+
+
+.aboutDiv {
+  margin-top: 20px;
+}
+
+
+.aboutimg {
+  width: 90%;
+  height: 400px;
+
+}
+
+.aboutprofile {
+  margin-right: 10px;
+}
+
+.wave2 {
+  position: relative;
+
+}
+
+.spaceexperience {
+  height: 24%;
+ 
+  position: absolute;
+  top: 79%;
+}
+.wavaeStyle {
+  position: relative;
+  top: -2%;
+}
+@media only screen and (max-width: 1024px) {
+    .spaceexperience{
+      top: 71%;
+    }
+}
+ @media only screen and (max-width: 768px) {
+ .wavaeStyle{
+  top: -1px;
+ }
+ .spaceexperience{
+  top: 61%;
+ }
+}
+ @media only screen and (max-width: 425px){
+      .wavaeStyle {
+         top: -5px;
+}
+ }
+ @media only screen and (max-width: 320px){
+  .spaceexperience {
+   
+    top: 10%;
+  }
+}

@@ -1,0 +1,143 @@
+.mainContainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #302f2f;
+    margin-top: -4px;
+    flex-direction: column;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+
+
+}
+
+.perspective-box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  
+    cursor: pointer;
+    transform: perspective(600px) translate3d(0, 0, 0);
+ 
+    transform-style: preserve-3d;
+}
+
+.perspective-box:hover {
+    box-shadow: 0 66px 75px -10px rgb(0 0 0 / 30%);
+    transform-style: preserve-3d;
+    z-index: 20;
+}
+
+
+.spaceSkills {
+    height: 6%;
+    
+    position: absolute;
+  
+    z-index: 2;
+    display: block;
+    margin-top: 17%;
+}
+.portFoliodiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: -4px;
+    padding-top: 30px;
+
+}
+
+.BoxSize {
+    height: 250px;
+    width: 200px;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    background-color: #302f2f;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 1px #0505A9;
+    border-radius: 50px 4px 50px 4px;
+
+}
+.BoxSize:hover {
+    height: 250px;
+    width: 200px;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    background-color: #302f2f;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px 1px #0505A9;
+    border-radius: 50px 4px 50px 4px;
+
+}
+
+.IMG {
+
+    height: 200px;
+    width: 150px;
+}
+
+.name {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+
+    color: white;
+}
+@media only screen and (max-width: 1024px) {
+    p{
+        margin-bottom: -1rem;
+    }
+    .spaceSkills{
+        margin-top: 14%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mainContainer1{
+        font-size: 45px;
+        padding-top: 20px;
+    }
+    .IMG {
+
+        height: 150px;
+        width: 150px;
+    }
+    .spaceexperience {
+        top: 55%;
+    }
+ 
+    
+}
+@media only screen and (max-width: 500px) {
+    .mainContainer1{
+      padding-top: 35px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .mainContainer1{
+        font-size: 35px;
+        padding-top: 52px;
+    }
+  
+
+    
+}
