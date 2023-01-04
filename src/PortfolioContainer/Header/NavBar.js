@@ -22,7 +22,7 @@ function NavBar() {
     return (
         <div className='Navbar '>
 
-            <div id="mySidenav" className={`sidenav ${isOpen === true ? 'active' : ''}`}>
+            <div id="mySidenav"  className={`sidenav ${isOpen === true ? 'active' : ''}`}>
                 <a className="closebtn" onClick={ToggleSidebar}><IoMdClose /></a>
                 <Link to='Home' className='link-btn-slider' onClick={ToggleSidebar}>Home</Link>
                 <Link to="AboutMe" className='link-btn-slider' onClick={ToggleSidebar}>About Me</Link>
@@ -34,30 +34,30 @@ function NavBar() {
 
 
             <div className='menu-items'>
-                <ul className='menu '>
+                <ul className='menu ' data-aos="fade-right">
 
                     <div className='mainDiv' >
                         <li ><Link to='Home' className='link-btn' >Home</Link></li>
 
                     </div>
-                    <div className='mainDiv'>
-                        <li><Link to='AboutMe' className='link-btn'>AboutMe</Link></li>
+                    <div className='mainDiv' >
+                        <li><Link to='AboutMe' className='link-btn' >AboutMe</Link></li>
                         <div className='hrRow'></div>
                     </div>
-                    <div >
-                        <li><Link to='Skills' className='link-btn'>Skills</Link></li>
+                    <div className='mainDiv'  >
+                        <li><Link to='Skills' className='link-btn' >Skills</Link></li>
                         <div className='hrRow'></div>
                     </div>
-                    <div>
-                        <li><Link to='Experience' className='link-btn'>Experience</Link></li>
+                    <div className='mainDiv' >
+                        <li><Link to='Experience' className='link-btn' >Experience</Link></li>
                         <div className='hrRow'></div>
                     </div>
-                    <div>
-                        <li><Link to='ContactMe' className='link-btn'>ContactMe</Link></li>
+                    <div className='mainDiv'  >
+                        <li><Link to='ContactMe' className='link-btn' >ContactMe</Link></li>
                         <div className='hrRow'></div>
                     </div>
-                    <div>
-                        <li><Link to='Portfolio' className='link-btn'>Portfolio</Link></li>
+                    <div className='mainDiv'  >
+                        <li><Link to='Portfolio' className='link-btn' >Portfolio</Link></li>
                         <div className='hrRow'></div>
                     </div>
 
@@ -66,7 +66,7 @@ function NavBar() {
 
                 </ul>
             </div>
-            <div className='SocialMedia '>
+            <div className='SocialMedia ' >
                 <div className='social'>
                     <a href='https://www.facebook.com/profile.php?id=100024678033622' className='link-btn'><FaFacebookF /></a>
                     <a href='https://www.instagram.com/_smile_iZ_mah_attitude_/' className='link-btn'><FaInstagram /></a>

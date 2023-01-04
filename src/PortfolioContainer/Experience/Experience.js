@@ -3,20 +3,23 @@ import './Experience.css'
 function Experience() {
   return (
     <div className='container'>
-      
-      <div className='mainDIV' >
+
+      <div className='mainDIV' data-aos="fade-left"
+        data-aos-offset="500 "
+        data-aos-duration="1500"  >
         Experience
       </div>
-      <div className='companyName'>
+      <div className='companyName' data-aos="fade-right">
         Stylcove Modulars Private Limited
       </div>
-      <div className='title'>
+      <div className='title' data-aos="fade-left">
         Project Engineer
       </div>
-      <div className='experience'>
+      <div className='experience' data-aos="fade-right">
         December 2021 - Present | Coimbatore
       </div>
-      <div className='disgription'>
+      <div className='disgription' data-aos="fade-up" ata-aos-offset="500 "
+        data-aos-duration="2000" >
         I am currently working as a Project Engineer by means
         of doing development for our company backend
         applications like CRM, Sales, Inventory, Project

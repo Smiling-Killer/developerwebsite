@@ -9,13 +9,13 @@ function Profile() {
   return (
     <div className=' Home HomePage col-12 container'  >
 
-      <div className='Profile-details-role'>
+      <div className='Profile-details-role' data-aos="fade-up">
         <span className='hellocontend'>
           Hello, I'M
         </span>
         <span className='nameContent '>Sameer</span>
       </div>
-      <div className="Typewriter">
+      <div className="Typewriter" data-aos="fade-left">
         <span className='primary-text'>
           <Typewriter
             options={{
@@ -30,17 +30,17 @@ function Profile() {
           />
         </span>
       </div>
-      <div className='profileContent'>
+      <div className='profileContent' data-aos="fade-right">
         <span style={{ textAlign: "center" }}>Ambitious professional seeking an opportunity as a Full Stack developer.</span>
       </div>
-      <div className='profile-options'>
+      <div className='profile-options' data-aos="flip-up">
         {/* <a href='sameer.pdf' download="sameer sameer.pdf">
             <button className='blob-btn'>
               Get Resume
             </button>
           </a> */}
-        <a href={MyPDF} download>
-          <button className="blob-btn">
+        <a href={MyPDF} download >
+          <button className="blob-btn" >
             Get Resume
             <span className="blob-btn__inner">
               <span className="blob-btn__blobs">
