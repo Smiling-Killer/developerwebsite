@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50ed219e.css",
+    "main.js": "/static/js/main.bd35533c.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/apiImage.PNG": "/static/media/apiImage.a33602daf6a6216e7200.PNG",
+    "static/media/portfolio.PNG": "/static/media/portfolio.2a41c7fe0e2592b49d3a.PNG",
+    "static/media/web.PNG": "/static/media/web.9f442c16b564c3022640.PNG",
+    "static/media/sameer.jpg": "/static/media/sameer.ecfdd05e01470ae1c2e1.jpg",
+    "static/media/figma.jpg": "/static/media/figma.3bdd8d9f71c540b8a8d2.jpg",
+    "static/media/SameerResume.pdf": "/static/media/SameerResume.5e2bee477d48f0c67b60.pdf",
+    "static/media/bodyWallimg.webp": "/static/media/bodyWallimg.a3c0c71ac18ea15c58cb.webp",
+    "static/media/js.jpg": "/static/media/js.5648ae0aeb0182cbd857.jpg",
+    "static/media/validForm.PNG": "/static/media/validForm.eb54d8773a5c4ce44410.PNG",
+    "static/media/HTML.png": "/static/media/HTML.df69503917a05a968e58.png",
+    "static/media/Reactjs.png": "/static/media/Reactjs.20ec11c4799854e3803d.png",
+    "static/media/Boootstrap.webp": "/static/media/Boootstrap.9665c440214bdf00146d.webp",
+    "index.html": "/index.html",
+    "static/media/wave.svg": "/static/media/wave.7288adfd9e915a8ca0dd48207360c1b4.svg",
+    "main.50ed219e.css.map": "/static/css/main.50ed219e.css.map",
+    "main.bd35533c.js.map": "/static/js/main.bd35533c.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50ed219e.css",
+    "static/js/main.bd35533c.js"
+  ]
+}

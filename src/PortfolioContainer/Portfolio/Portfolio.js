@@ -20,7 +20,7 @@ class Portfolio extends React.Component{
         id: 2,
         title: "My Portfolio ",
         image: portfolio,
-        location:'https://developersameer007.web.app/'
+        location:'https://developersameer07.web.app/'
       },
       {
         id: 3,
@@ -83,7 +83,7 @@ class Portfolio extends React.Component{
             <div className='col-3 box' data-aos="fade-right" >
               <img src={portfolio} alt="box1" className='imagg' />
               <div className='imagDiv'>
-                <a href='https://developersameer007.web.app/'
+                <a href='https://developersameer07.web.app/'
                   style={{
                     backgroundColor: "#0505A9",
                     color: "white", padding: "10px 20px",
