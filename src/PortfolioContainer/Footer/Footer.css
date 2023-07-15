@@ -1,0 +1,116 @@
+.footer {
+   
+
+    position: relative;
+    top: -2px;
+    height: 400px;
+}
+.wavefooter{
+rotate: 180deg;
+
+}
+.Miandiv{
+    margin-top: -2px;
+}
+.Headding {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+
+.contactDiv {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.left-footer {
+    margin-top: 30px;
+}
+
+.ContactTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding-right: 8px;
+}
+
+.colen {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-right: 8px;
+}
+
+.contactdetails {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-right: 8px;
+}
+
+.contactdetailsAddress {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-right: 8px;
+
+}
+
+.spaceDiv {
+    text-indent: 50px;
+}
+
+.contact {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.icon {
+    height: 30px;
+    width: 50px;
+}
+
+.contactlist {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+.Headding{
+    font-size: 45px;
+}
+.contactlist{
+    margin-left: 22px;
+}
+}
+@media only screen and (max-width: 425px) {
+  
+    .Headding{
+        font-size: 35px;
+    }
+    .contact{
+        font-size: 15px;
+    }
+    .icon{
+      height: 22px;
+
+    }
+    .contactlist {
+        margin-left: 11px;
+    }
+    .footer{
+        height: 300px;
+    }
+    }
+    
+@media only screen and (max-width:320px){
+    .icon {
+        
+        width: 30px;
+        padding-left: 4px;
+    }
+}

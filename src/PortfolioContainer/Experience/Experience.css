@@ -1,0 +1,133 @@
+.mainDIV {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.companyName {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: rgb(97, 93, 93)
+}
+
+.experience {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(141, 134, 134)
+}
+
+.disgription {
+    text-indent: 70px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .mainDIV {
+        font-size: 40px;
+    }
+
+    .companyName {
+        font-size: 30px;
+        margin-top: 1px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .experience {
+        font-size: 23px;
+    }
+
+    .disgription {
+        font-size: 24px;
+        text-align: justify;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .spaceexperience {
+        top: 33%;
+    }
+}
+
+@media only screen and (max-width:425px) {
+
+    .spaceexperience {
+        top: 14%;
+    }
+
+    .mainDIV {
+        font-size: 35px;
+    }
+
+    .companyName {
+        font-size: 28px;
+
+    }
+
+    .title {
+        font-size: 27px;
+    }
+
+    .experience {
+        font-size: 20px;
+    }
+
+    .disgription {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .spaceexperience {
+        top: 15%;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .spaceexperience {
+        top: 11%;
+    }
+
+    .companyName {
+        font-size: 20px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .experience {
+        font-size: 15px;
+        margin-top: 3px;
+    }
+
+    .disgription {
+        font-size: 15px;
+    }
+}
