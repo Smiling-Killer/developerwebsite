@@ -53,7 +53,7 @@ function NavBar() {
                         <div className='hrRow'></div>
                     </div>
                     <div className='mainDiv'  >
-                        <li><Link to='ContactMe' className='link-btn' >ContactMe</Link></li>
+                        <li><Link to='ContactMe' className='link-btn' >Contact Me</Link></li>
                         <div className='hrRow'></div>
                     </div>
                     <div className='mainDiv'  >
