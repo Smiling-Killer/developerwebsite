@@ -6,7 +6,7 @@ import { IoMdClose } from "@react-icons/all-files/io/IoMdClose";
 import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram";
 import { FaWhatsapp } from "@react-icons/all-files/fa/FaWhatsapp";
-
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub";
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
 import { FiMenu } from "@react-icons/all-files/fi/FiMenu";
 import { Link } from 'react-scroll';

@@ -29,7 +29,7 @@ function Footer() {
           data-aos-easing="ease-in-sine"
         >
           <h6 className="contact">
-            <IoMdMail className="icon" /> abdulsameer261299@gmail.com{" "}
+            <IoMdMail className="icon" /> abdulsameer261299@gmail.com
           </h6>
           <h6 className="contact">
             <FaPhoneAlt className="icon" /> +91 63819 84080
