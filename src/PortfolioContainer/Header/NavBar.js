@@ -71,7 +71,7 @@ function NavBar() {
                     <a href='https://www.facebook.com/profile.php?id=100024678033622' className='link-btn'><FaFacebookF /></a>
                     <a href='https://www.instagram.com/_smile_iZ_mah_attitude_/' className='link-btn'><FaInstagram /></a>
                     <a href='https://wa.me/+916381984080' className='link-btn'><FaWhatsapp /></a>
-                    <a href='https://github.com/MyNameIsSameer' className='link-btn'><FaGithub /></a>
+                    <a href='https://github.com/Smiling-Killer' className='link-btn'><FaGithub /></a>
                     <a href='https://www.linkedin.com/in/sameer-sameer-9ba454227' className='link-btn'><FaLinkedinIn /></a>
                 </div>
                 <div className='bar'>

@@ -13,8 +13,7 @@ class Portfolio extends React.Component{
         id: 1,
         title: "Figma Chart",
         image: figma,
-        location:'https://figmareactproject.web.app/'
-
+        location:"https://figma-chart.firebaseapp.com"
       },
       {
         id: 2,
