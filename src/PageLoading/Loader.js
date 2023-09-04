@@ -13,7 +13,6 @@ function Loader() {
           <div className='Dot'>
           <div class="dot-pulse"></div>
           </div>
-      
         </div>
       </div>
     </div>

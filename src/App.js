@@ -12,19 +12,15 @@ import Loader from './PageLoading/Loader';
 import Portfolio from './PortfolioContainer/Portfolio/Portfolio';
 
 
-
 function App() {
   const [loader, setLoader] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoader(false);
-    },1000);
-  }, []);
-  return loader ? (
-    <Loader/>
-    ):( 
-
+    useEffect(() => {
+      setTimeout(() => {
+        setLoader(false);
+      },1000);
+    }, []);
+    
+  return loader ? (<Loader/>):( 
     <div className='bodyCotainer' >
       <div className='main_container '>
         <NavBar />

@@ -1,58 +1,59 @@
 .portfoliocon {
-  height: 100%;
+    height: 100%;
     padding-bottom: 30px;
     width: 100%;
-   display: flex;
-   justify-content: center;
-}
-.portfolioWrap{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .portfolioWrap {
     align-items: center;
-width: 80%;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-
-}
-.btnport{
-   font-size: 15px;
-   border:"none";
-    background-color:#0505A9;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .btnport {
+    font-size: 15px;
+    border: none;
+    background-color: #0505A9;
     color: white;
     font-weight: bold;
     padding: 10px;
     border-radius: 0px 0px 15px 15px;
     width: 100%;
     text-align: center;
-    cursor:pointer;
-}
-.aTag{
+    cursor: pointer;
+  }
+  
+  .aTag {
     text-decoration: none;
-     text-decoration:"none";
-     border: 2px solid white;
-     width: 370px;
-     margin: 30px;
-     border-radius: 10px;
-}
-
-
-.Portfolio {
+    border: 2px solid white;
+    width: 370px;
+    margin: 30px;
+    border-radius: 10px;
+  }
+  
+  .Portfolio {
     height: 100%;
-}
-img{
+  }
+  
+  img {
     border-radius: 10px 10px 0px 0px;
-}
-.portfoliocon {
+  }
+  
+  .portfoliocon {
     background-color: #302f2f;
     font-weight: 700;
     font-size: 64px;
-}
-
-.chart {
+  }
+  
+  .chart {
     border: 1px solid white;
-}
-
-.titleportfolio {
-
+  }
+  
+  .titleportfolio {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,19 +64,17 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 64px;
-
-}
-
-.chartcontainer {
+  }
+  
+  .chartcontainer {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
-}
-
-.box {
+  }
+  
+  .box {
     height: 220px;
     width: 320px;
     border: 1px solid white;
@@ -83,24 +82,22 @@ img{
     justify-content: center;
     align-items: center;
     margin: 20px;
-
     overflow: hidden;
     box-shadow: 1px 1px 5px 1px #0505A9;
     border-radius: 50px 4px 50px 4px;
     position: relative;
-}
-
-.box:hover .imagg {
+  }
+  
+  .box:hover .imagg {
     opacity: 0.5;
     filter: blur(1px);
-}
-
-.box:hover .imagDiv {
-
+  }
+  
+  .box:hover .imagDiv {
     opacity: 1;
-}
-
-.imagg {
+  }
+  
+  .imagg {
     opacity: 1;
     display: block;
     width: 100%;
@@ -108,11 +105,9 @@ img{
     height: 100%;
     transition: .5s ease;
     backface-visibility: hidden;
-}
-
-
-
-.vst {
+  }
+  
+  .vst {
     display: block;
     margin: auto;
     border: unset;
@@ -121,13 +116,10 @@ img{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 15px;
-
-
-}
-
-.imagDiv {
+  }
+  
+  .imagDiv {
     transition: .5s ease;
-
     opacity: 0;
     position: absolute;
     top: 50%;
@@ -135,27 +127,18 @@ img{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-}
-
-
-@media only screen and (max-width: 768px) {
+  }
+  
+  @media only screen and (max-width: 768px) {
     .titleportfolio {
-        font-size: 40px;
-
+      font-size: 40px;
     }
-
-
-
-
-}
-
-
-@media only screen and (max-width: 375px) {
-
+  }
+  
+  @media only screen and (max-width: 375px) {
     .box {
-        height: 200px;
-        width: 300px;
-
+      height: 200px;
+      width: 300px;
     }
-
-}
+  }
+  

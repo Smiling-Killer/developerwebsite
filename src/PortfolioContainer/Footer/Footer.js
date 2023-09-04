@@ -17,11 +17,10 @@ function Footer() {
           ></path>
         </svg>
       </div>
-      <div className="footer  " style={{ height: "70vh" }}>
+      <div className="footer" style={{ height: "70vh" }}>
         <div className="Headding col-12" data-aos="fade-right">
           Contact Me
         </div>
-
         <div
           className="contactlist"
           data-aos="fade-right"

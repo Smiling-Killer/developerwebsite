@@ -18,9 +18,11 @@ function Experience() {
       <div className='experience' data-aos="fade-right">
         December 2021 - Present | Coimbatore
       </div>
-      <div className='disgription' data-aos="fade-up" ata-aos-offset="500 "
+      <div className='disgription' 
+        data-aos="fade-up" 
+        ata-aos-offset="500 "
         data-aos-duration="2000" >
-        I am currently working as a Project Engineer by means
+        I worked as a Project Engineer by means
         of doing development for our company backend
         applications like CRM, Sales, Inventory, Project
         Management, Employees, Timesheet, Fieldservice using

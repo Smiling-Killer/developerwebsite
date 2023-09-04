@@ -1,17 +1,17 @@
 .footer {
-   
-
     position: relative;
     top: -2px;
     height: 400px;
 }
-.wavefooter{
-rotate: 180deg;
 
+.wavefooter {
+    rotate: 180deg;
 }
-.Miandiv{
+
+.Miandiv {
     margin-top: -2px;
 }
+
 .Headding {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -80,36 +80,40 @@ rotate: 180deg;
 }
 
 @media only screen and (max-width: 768px) {
-.Headding{
-    font-size: 45px;
+    .Headding {
+        font-size: 45px;
+    }
+    .contactlist {
+        margin-left: 22px;
+    }
 }
-.contactlist{
-    margin-left: 22px;
-}
-}
+
 @media only screen and (max-width: 425px) {
-  
-    .Headding{
+    .Headding {
         font-size: 35px;
     }
-    .contact{
+
+    .contact {
         font-size: 15px;
     }
-    .icon{
-      height: 22px;
+
+    .icon {
+        height: 22px;
 
     }
+
     .contactlist {
         margin-left: 11px;
     }
-    .footer{
+
+    .footer {
         height: 300px;
     }
-    }
-    
-@media only screen and (max-width:320px){
+}
+
+@media only screen and (max-width:320px) {
     .icon {
-        
+
         width: 30px;
         padding-left: 4px;
     }

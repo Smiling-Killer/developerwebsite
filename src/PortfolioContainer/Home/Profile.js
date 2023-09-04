@@ -8,7 +8,6 @@ import Typewriter from 'typewriter-effect';
 function Profile() {
   return (
     <div className=' Home HomePage col-12 container'  >
-
       <div className='Profile-details-role' data-aos="fade-up">
         <span className='hellocontend'>
           Hello, I'M
@@ -67,7 +66,5 @@ function Profile() {
     </div>
   )
 }
-
-
 
 export default Profile;

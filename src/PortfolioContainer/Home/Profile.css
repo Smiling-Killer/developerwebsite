@@ -6,11 +6,12 @@
   padding-top: 15%;
   align-items: center;
   justify-content: center;
+}
 
+.demo {
+  margin-left: 30px;
 }
-.demo{
-   margin-left: 30px;
-}
+
 .Profile-details-role {
   display: flex;
   justify-content: center;
@@ -21,7 +22,6 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin-right: 8px;
-
 }
 
 .nameContent {
@@ -33,7 +33,6 @@
 
 .Typewriter {
   font-size: 64px;
-
   display: flex;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
@@ -47,14 +46,12 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 30px;
-
 }
 
 .profile-options {
   display: flex;
   justify-content: center;
   height: 100px;
-
 }
 
 .resumeBtn {
@@ -68,9 +65,7 @@
   border: unset;
   padding: 16px 18px;
   border-radius: 20px;
-
 }
-
 
 *,
 *:before,
@@ -80,14 +75,10 @@
   padding: 0;
 }
 
-
-
 .buttons {
-
   margin-top: 50px;
   text-align: center;
   border-radius: 30px;
-
 }
 
 .blob-btn {
@@ -102,7 +93,6 @@
   text-transform: uppercase;
   color: #0505A9;
   font-size: 16px;
-
   background-color: transparent;
   outline: none;
   border: none;
@@ -213,19 +203,14 @@
   }
 }
 
-
 @media only screen and (max-width: 768px) {
-
-
   .hellocontend {
-   
     font-size: 40px;
   }
 
   .nameContent {
-
     font-size: 40px;
-  } 
+  }
 
   .Typewriter {
     font-size: 40px;
@@ -233,61 +218,61 @@
 
   .profileContent {
     font-size: 25px;
-
   }
-  .blob-btn{
+
+  .blob-btn {
     margin-top: 13px;
     font-size: 14px;
     padding: 17px 40px;
   }
+
   .HomePage {
-   height: 500px;
+    height: 500px;
     justify-content: end;
   }
 }
 
 @media only screen and (max-width: 425px) {
   .hellocontend {
-   
     font-size: 30px;
   }
 
   .nameContent {
-
     font-size: 30px;
-  } 
+  }
 
   .Typewriter {
     font-size: 30px;
   }
+
   .profileContent {
     font-size: 18px;
-
   }
-  .blob-btn{
+
+  .blob-btn {
     padding: 14px 33px;
   }
+
   .HomePage {
-   height: 480px;
+    height: 480px;
     justify-content: end;
   }
 }
+
 @media only screen and (max-width: 425px) {
   .Typewriter {
     font-size: 25px;
   }
+
   .hellocontend {
-   
     font-size: 25px;
   }
 
   .nameContent {
-
     font-size: 25px;
-  } 
+  }
+
   .profileContent {
     font-size: 17px;
-
   }
- 
 }
